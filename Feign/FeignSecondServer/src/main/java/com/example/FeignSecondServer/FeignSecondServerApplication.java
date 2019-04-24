@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient //this annotation is required @EnableEurekaClient not required
+//@EnableFeignClients => enable feign client functionality
 public class FeignSecondServerApplication {
 
 	public static void main(String[] args) {
